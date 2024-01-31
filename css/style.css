@@ -4,6 +4,7 @@
     --secondary: #545454;
     --light: #FDF5EB;
     --dark: #1E1916;
+    --less-dark: #1e1916a4;
 }
 
 h4,
@@ -108,6 +109,7 @@ h6,
 
 .navbar.fixed-top {
     transition: .5s;
+    background: var(--less-dark);
 }
 
 @media (max-width: 991.98px) {
@@ -209,7 +211,7 @@ h6,
 
 .page-header {
     margin-bottom: 6rem;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(216, 213, 213, 0.5), rgba(0, 0, 0, .5)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
