@@ -285,59 +285,7 @@ h6,
 }
 
 
-/*** Team ***/
-.team-item .team-text {
-    position: relative;
-    height: 100px;
-    overflow: hidden;
-}
-
-.team-item .team-title {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: var(--light);
-    transition: .5s;
-}
-
-.team-item:hover .team-title {
-    top: -100px;
-}
-
-.team-item .team-social {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 100px;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--primary);
-    transition: .5s;
-}
-
-.team-item .team-social .btn {
-    margin: 0 3px;
-}
-
-.team-item:hover .team-social {
-    top: 0;
-}
-
-
 /*** Testimonial ***/
-.testimonial-carousel .owl-item .testimonial-item img {
-    width: 60px;
-    height: 60px;
-}
-
 .testimonial-carousel .owl-item .testimonial-item,
 .testimonial-carousel .owl-item .testimonial-item * {
     transition: .5s;
@@ -345,6 +293,7 @@ h6,
 
 .testimonial-carousel .owl-item.center .testimonial-item {
     background: var(--primary) !important;
+    
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
