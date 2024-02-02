@@ -286,6 +286,11 @@ h6,
 
 
 /*** Testimonial ***/
+.testimonial-carousel .owl-item .testimonial-item img {
+    width: 60px;
+    height: 60px;
+}
+
 .testimonial-carousel .owl-item .testimonial-item,
 .testimonial-carousel .owl-item .testimonial-item * {
     transition: .5s;
